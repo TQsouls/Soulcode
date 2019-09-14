@@ -1,0 +1,106 @@
+/* ----------------- 顶部 start ------------------- */
+.header {
+	width: 100%;
+	height: 105px;
+	background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+}
+
+.header .w1200 {
+	margin: 0 auto;
+}
+
+.header .logo {
+	display: inline-block;
+}
+
+.header .search {
+	width: 270px;
+	float: right;
+	position: relative;
+	top: 52px;
+	margin-top: -15px;
+}
+
+.header .search .search-input {
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	border: none;
+}
+
+.header .search .search-icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: aqua;
+	height: 100%;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+}
+/* ----------------- 顶部 end ------------------- */
+
+/* ----------------- 导航栏 start ------------------- */
+.nav .active a {
+	background-color: #f7cf4c !important;
+}
+
+/* ----------------- 导航栏 end ------------------- */
+
+/* -------- 每个页面的 banner 部分 start ------------- */
+.banner {
+	background-color: skyblue;
+}
+
+/* -------- 每个页面的 banner 部分 end ------------------- */
+
+/* ----------------- 底部版权 start ------------------- */
+.footer {
+	width: 100%;
+	height: 280px;
+	background-color: #252c31;
+}
+
+.footer .links {
+	display: flex;
+	border-bottom: 1px solid #737678;
+}
+
+.footer .links > li {
+	flex: 1;
+	border-left: 1px solid #737678;
+	text-align: center;
+	font-size: 16px;
+	margin: 25px 0 25px;
+}
+
+.footer .links > li > a {
+	color: #3ba2df;
+}
+
+.footer .links > li:nth-child(1) {
+	border-left: none;
+	color: #ccc;
+}
+
+.footer .middle .logo {
+	float: left;
+	padding-right: 50px;
+}
+
+.footer .middle .text {
+	float: left;
+	color: #ebeeee;
+	padding-left: 50px;
+	border-left: 1px solid #737678;
+	margin-top: 30px;
+}
+
+.footer .middle .QRCode {
+	float: right;
+	color: #ebeeee;
+	margin-top: 30px;
+}
+
+/* ----------------- 底部版权 end ------------------- */

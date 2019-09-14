@@ -1,0 +1,38 @@
+/* 全局公共样式 start */
+.w1200 {
+	width: 1200px !important;
+}
+
+.m0a {
+	margin: 0 auto !important;
+}
+
+.h180 {
+	height: 180px !important;
+}
+
+.tab-pane .nav {
+	width: 220px;
+	float: left;
+}
+
+.tab-pane .nav > li {
+	float: none;
+}
+
+.tab-pane .tab-content {
+	float: right;
+	width: 980px;
+}
+/* 全局公共样式 end */
+
+/* 清除默认样式 start */
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+/* 清除默认样式 end */
